@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    table{
+      border-collapse: collapse;
+    }
+  </style>
+</head>
+<body>
+  
+  <!-- table 태그는 표를 작성하는 태그입니다. -->
+  <table border="1">
+    <tr> <!-- table의 자식태그 tr은 표의 행을 나타낸다 -->
+      <th>이름</th> <!--tr의 자식태그 td는 한 행에 들어갈 열을 나타낸다-->
+      <th>나이</th> 
+      <th>MBTI</th>
+      <th>주소</th>
+      <!-- 가로 셀 병합 : colspan, 세로 셀 병합 : rowspan
+      벼합하고 싶은 셀의 개수를 지정-->
+      <td rowspan="5" align="center">
+        <button>황건적 토벌 바로가기</button>
+      </td>
+    </tr>
+    <tr>
+      <td>제갈공명</td>
+      <td>34</td>
+      <td>INTJ</td>
+      <td>서주 낭야군 양도현</td>
+    </tr>
+    <tr>
+      <td>유현덕</td>
+      <td>41</td>
+      <td>ESFJ</td>
+      <td>유주 탁군 탁현</td>
+    </tr>
+    <tr>
+      <td>조맹덕</td>
+      <td>43</td>
+      <td>ENTP</td>
+      <td>예주 패국 초현</td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center">
+        <button>랜덤 선택</button>
+      </td>
+    </tr>
+  </table>
+  
+</body>
+</html>
