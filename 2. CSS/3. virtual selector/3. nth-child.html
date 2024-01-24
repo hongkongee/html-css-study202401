@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <style>
+    .fruits > li:nth-child(3){
+      color: orange;
+    }
+    .fruits > li:nth-child(even){
+      color: blue;
+    }
+    .fruits > li:nth-child(odd){
+      color: purple;
+    }
+
+    /* n 키워드 사용 시 0부터 해석 */
+    .fruits > li:nth-child(3n + 1) {
+      font-size: 40px;
+      font-weight: bold;
+    }
+
+    /* .food의 첫번째 자식이 p가 아니기 때문에 지목해서 스타일을 지정할 수 없습니다. */
+    .food > p:nth-child(1) {
+      font-style: italic;
+    }
+
+    /* 같은 종류의 요소 중 n번째 요소를 지목 */
+    .food > p:nth-of-type(1) {
+      font-style: italic;
+    }
+
+    .box-group > div > div:nth-child(1){
+      font-weight: bold;
+      color: red;
+    }
+
+    /* 오렌지 빼고 다 적용 */
+    .fruits li:not(.orange) {
+      list-style: none;
+    }
+
+  </style>
+</head>
+
+<body>
+  <ul class="fruits">
+    <li>草莓</li>
+    <li>苹果</li>
+    <li class="orange">橙子</li>
+    <li>芒果</li>
+    <li>香蕉</li>
+    <li>桃子</li>
+    <li>凤梨</li>
+  </ul>
+
+  <hr>
+
+  <div class="food">
+    <div>炸酱面</div>
+    <p>炒饭</p>
+    <p>果酱鸡</p>
+    <span>海鲜面</span>
+  </div>
+
+  <br><br><br>
+  <hr>
+
+  <div class="box-group">
+    <div>1</div>
+    <div>2</div>
+    <div>3
+      <div>3-1</div>
+      <div>3-2</div>
+      <div>3-3</div>
+    </div>
+  </div>
+
+  <div></div>
+
+</body>
+</body>
+
+</html>
