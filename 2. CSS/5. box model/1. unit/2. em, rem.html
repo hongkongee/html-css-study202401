@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    /* 1rem = 16px : default */
+    html {
+      font-size: 10px; /*1rem = 10px*/
+    }
+
+    body * {
+      border: 2px solid black;
+    }
+    .container {
+      font-size: 20px; /* 1em = 20px, 자기 자신의 font-size*/
+      width: 60em; /* 1200px */
+    }
+
+    .parent {
+      width: 50%; /* 600px */
+      font-size: 2em;
+    }
+
+    .child {
+      width: 30%; /* 180px */
+      font-size: 3rem;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">Container
+    <div class="parent">Parent
+      <div class="child">Child1</div>
+      <div class="child">Child2</div>
+    </div>
+  </div>
+</body>
+
+</html>
