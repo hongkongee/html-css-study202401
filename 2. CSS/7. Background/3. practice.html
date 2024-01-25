@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+      <!-- reset css -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <style>
+    @font-face {
+    font-family: 'gulim';
+    src: url('./font/gulim.ttc');
+  }
+    section {
+      width: 60%;
+    }
+
+    h1 {
+      /* font: 스타일, 두께, 크기 / 줄높이, 글꼴 */
+      /* 단축 속성 사용 시 font-size, font-family는 필수로 지정해야 한다. */
+      font: bold 30px / 1.4em serif;
+      margin: 15px auto;
+      font-family: "gulim", sans-serif;
+    }
+
+    .food {
+      background-image: url(./images/bg_bul.gif);
+      background-repeat: no-repeat;
+    }
+    .sub-title {
+      margin: 15px 25px;
+      font: bold 20px / 1.2em serif;
+      font-family: "gulim", sans-serif;
+    }
+
+    .food p {
+      padding: 10px 10px;
+      height: 100px;
+      background-color: rgb(241, 218, 240);
+      background-image: url(./images/bg_line.gif);
+      background-repeat: repeat-x;
+      background-position: center bottom;
+      font-family: "gulim", sans-serif;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <section>
+    <h1 class="main-title">배경 실습</h1>
+    <div class="content">
+      <div class="food">
+        <h2 class="sub-title">아침 식사와 저녁 식사</h2>
+        <p>
+          하루일과를 잘 시작하여 성공적인 업무를 마치려면 아침 식사는 거르지 않는 것이 좋을 것이다.
+          낮에 취침하고 밤에 일하는 생활 유형을 가진 사람이라면 그 사람은 저녁 식사를 거르지 않도록
+          하는 것이 더욱 중요할 것 같다.
+        </p>
+      </div>
+    </div>
+    <div class="food">
+      <h2 class="sub-title">간식과 야참</h2>
+      <p>
+        가공식품으로 구성된 간식이면...  
+      </p>
+    </div>
+  </div>
+  <div class="food">
+    <h2 class="sub-title">보양식과 약</h2>
+    <p>
+      보양식은 일반식사나 간식을...
+    </p>
+  </div>
+    </div>
+  </section>
+
+</body>
+
+</html>
