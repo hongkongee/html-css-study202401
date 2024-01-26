@@ -1,0 +1,119 @@
+@import url(../../common.css);
+
+body {
+  background: gray;
+}
+
+#wrapper {
+  width: 80%;
+  margin: 0 auto 5%;
+
+}
+
+#wrapper header h1 { /* header */
+  background: orange;
+  color: white;
+  height: 150px;
+  font: bold 70px / 125px sans-serif;
+  text-align: center;
+}
+
+#wrapper header h1 span{
+  font-size: 0.25em;
+
+  line-height: 10px;
+  display: block;
+
+}
+
+#wrapper header .stit {
+  background: rgb(196, 195, 195);
+  font: 13px / 13px sans-serif;
+  text-align: center;
+  padding: 2px;
+}
+
+
+#wrapper .container { /* container */
+  background: white;
+}
+
+
+#wrapper .container .side-menu { /* container 1. side-menu */
+  float: left;
+  background: white;
+  width: 23%;
+}
+
+#wrapper .container .side-menu h3 {
+  background: rgb(161, 5, 5);
+  color: white;
+  height: 30px;
+
+  padding-left: 10px;
+  font: bold 15px / 30px sans-serif;
+}
+
+#wrapper .container .side-menu ul {
+  padding-left: 10px;
+  font: bold 12px / 30px sans-serif;
+  text-decoration: underline;
+}
+
+#wrapper .container .side-menu ul li:hover {
+  color: rgb(161, 5, 5);
+}
+
+#wrapper .container .main-content { /* container 2. main-content*/
+  float: left;
+  background: rgb(228, 225, 225);
+  width: 54%;
+  color: #123456;
+  font: bold 15px / 30px sans-serif;
+}
+
+#wrapper .container .main-content .title {
+  background: #123456;
+  margin: 20px 10px 10px;
+  height: 30px;
+  color: white;
+  padding-left: 5px;
+  font: bold 15px / 30px sans-serif;
+}
+
+#wrapper .container .main-content .artist {
+  padding-left: 10px;
+}
+
+#wrapper .container .main-content .detail {
+  font-size: 10px;
+  padding-left: 10px;
+}
+
+
+#wrapper .container .banner { /* container 3. banner */
+  float: left;
+  background: white;
+  width: 23%;
+}
+
+#wrapper .container .banner h3 {
+  font: bold 20px / 30px sans-serif;
+  padding: 10px;
+}
+
+#wrapper .container .banner h3 span{
+  display: block;
+  text-decoration: underline;
+}
+
+#wrapper .container .banner h3 .all{
+  color: rgb(184, 184, 184);
+}
+
+#wrapper .container .banner h3 .love{
+  color: rgb(255, 172, 18);
+}
+
+
+
