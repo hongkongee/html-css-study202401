@@ -1,0 +1,101 @@
+@import url(../../common.css);
+
+/* base style */
+body {
+  background: gray;
+  font-family: 'gulim', serif;
+}
+
+#wrapper {
+  margin: 0 auto 30px;
+  background: #fff;
+  width: 65%;
+}
+
+/* header */
+#wrapper header {
+  background: #260658;
+  height: 150px;
+  padding-top: 20px;
+}
+
+
+#wrapper header h1 {
+  text-align: center;
+  color: orange;
+  font: bold 30px / 150px 'Jua', sans-serif;
+}
+
+#wrapper header h1 strong {
+  color: white;
+  font: bold 3em / 1.4px 'CookieRun', sans-serif;
+}
+
+#wrapper header h1 span {
+  font-size: 1.5em;
+}
+
+#wrapper header h1 em {
+  color: lightgray;
+  font-size: 2em;
+}
+
+/* container */
+#wrapper .container {
+  background: #ccc;
+}
+
+#wrapper .container .menu {
+  width: 20%;
+  height: 650px;
+  float: left;
+}
+
+#wrapper .container .menu li {
+  text-decoration: underline;
+
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+#wrapper .container .menu li:nth-child(1) {
+  margin-top: 30px; 
+}
+
+#wrapper .container .menu li a:hover {
+  color: #662;
+  border-bottom: 1px dashed #662;
+}
+
+
+#wrapper .container .content {
+  background: white;
+  width: 80%;
+
+  float: right;
+}
+
+#wrapper .container .content h2 {
+  height: 50px;
+  padding-left: 15px;
+
+  background: brown;
+  color: yellow;
+  font: bold 28px / 50px cursive;
+}
+
+#wrapper .container .content p {
+  padding: 30px 20px;
+  font: 16px / 160% 'gulim', sans-serif;
+  text-align: justify;
+}
+
+/* footer */
+#wrapper footer {
+  background: rgb(156, 156, 156);
+  height: 60px;
+}
+
+#wrapper footer address {
+  font: 16px / 60px 'gulim', sans-serif;
+}
