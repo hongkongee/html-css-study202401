@@ -115,5 +115,30 @@ body {
   color: rgb(255, 172, 18);
 }
 
+#wrapper .container .banner .link li{
+  font: 11px / 15px sans-serif;
+  margin: 10px;
+}
+
+#wrapper .container .banner .link li a{
+  text-decoration: underline;
+  display: block;
+  font-weight: bold;
+  width: fit-content;
+}
+
+#wrapper footer {
+  text-align: center;
+  background: #123456;
+  height: 30px;
+  line-height: 30px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+}
+
+#wrapper footer address a {
+  text-decoration: underline;
+}
 
 
